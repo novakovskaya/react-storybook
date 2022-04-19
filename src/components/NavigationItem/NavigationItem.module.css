@@ -1,0 +1,19 @@
+.item {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 4px;
+  font-family: Montserrat, sans-serif;
+  text-decoration: none;
+  color: #212121;
+}
+
+.active {
+  color: #ed3c53;
+}
+
+.item:hover,
+.item:focus {
+  color: #ed3c53;
+}

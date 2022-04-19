@@ -1,0 +1,23 @@
+.container {
+  width: 260px;
+  min-height: 100vh;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+
+.container.minimized {
+  width: 180px;
+}
+
+.logoThumb {
+  padding: 20px 40px;
+  background-color: cadetblue;
+}
+
+.content {
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
